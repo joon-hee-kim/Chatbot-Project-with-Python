@@ -38,12 +38,6 @@ https://github.com/user-attachments/assets/5c0ea1e4-c718-4a68-b8dc-d89412ede95f
 
 https://github.com/user-attachments/assets/fd8dede7-5baa-447b-b9ac-439d0b7235cf
 
-
-6. **Demo Video 3** (**A little loading!**) </br>
-<a href="https://github.com/user-attachments/assets/fd8dede7-5baa-447b-b9ac-439d0b7235cf">
-  <img src="https://github.com/joon-hee-kim/pythonprogram/assets/121689436/8aeb6ef5-8f8d-4e5e-b785-a6c1cd905e89" width="400">
-</a>
-
 </br>
 
 
