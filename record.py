@@ -1,6 +1,9 @@
 import pyaudio
+
 import wave
+
 import os
+
 import subprocess
 
 def record_audio(filename, seconds):
@@ -47,7 +50,6 @@ def check_for_recording():
     print("Recording complete. You can now access the recorded_audio.wav file.")
     task_name = "Play Recorded Audio"
     task_command = f'"{os.getcwd()}\\{os.path.basename(__file__)}" play'
-    task_trigger = "daily at 09:00" 
     subprocess.call(f'schtasks /create /tn "{task_name}" /tr "{task_command}" /sc daily /st 09:00', shell=True)
 
 def play_recorded_audio():
@@ -62,11 +64,5 @@ if __name__ == '__main__':
         play_recorded_audio()
     else:
         check_for_recording()
-
-
-import os
-
-def play_recorded_audio():
-    os.system("start recorded_audio.wav")
-
-play_recorded_audio()
+else:
+    play_recorded_audio()
