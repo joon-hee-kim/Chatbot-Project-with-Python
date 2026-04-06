@@ -26,10 +26,13 @@ This chatbot has **time and alarm** functions, **dictionary** functions, **recor
 </a> </br></br>
 
 3. Recording
-- When you enter "chat.py", you can record whay you want to say.</br>
+- When you enter "chat.py", you can record what you want to say.</br>
 - Then if you enter "chat.py", you can listen to what you said.</br></br>
 ![image](https://github.com/joon-hee-kim/Chatbot-project-with-python/assets/121689436/1354ac85-493b-4c96-90d8-4aad730bf6f4)</br></br>
 
+4. **Demo Video** (**A little loading!**) </br>
+https://github.com/user-attachments/assets/5c0ea1e4-c718-4a68-b8dc-d89412ede95f </br></br>
+https://github.com/user-attachments/assets/fd8dede7-5baa-447b-b9ac-439d0b7235cf </br></br>
 
 ## ✔️ Source
 - [Source Link1](https://www.nltk.org)</br>
