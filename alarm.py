@@ -1,15 +1,14 @@
 import datetime
+
 import time
 
 time.sleep(10)
-
-import datetime
 
 def get_current_time():
     now = datetime.datetime.now()
     print("현재 시간은 {}시 {}분입니다.".format(now.hour, now.minute))
     print("오늘은 {}년 {}월 {}일입니다.".format(now.year, now.month, now.day))
-get_current_time()  
+get_current_time()
 
 def set_medication_reminder():
     while True:
@@ -27,6 +26,6 @@ def set_medication_reminder():
         if now >= alarm_time:
             print("약 복용 시간입니다.")
             break
-        time.sleep(30)  
+        time.sleep(30)
 
 set_medication_reminder()
